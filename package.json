@@ -18,6 +18,7 @@
     "cleanup": "rimraf ./build",
     "prebuild": "npm run cleanup",
     "build": "babel ./src --out-dir ./build",
-    "build-alternative": "npm run build -- --out-dir ./build-alternative"
+    "build-alternative": "npm run build -- --out-dir ./build-alternative",
+    "build-custom": "node ./task/build.js || node ./task/fail.js"
   }
 }
