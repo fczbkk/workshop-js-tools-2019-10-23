@@ -13,6 +13,7 @@
     "babel-cli": "^6.26.0",
     "babel-loader": "^8.0.5",
     "documentation": "^12.1.2",
+    "jsdoc": "^3.6.3",
     "lodash": "^4.17.15",
     "rimraf": "^3.0.0",
     "webpack": "^4.41.2",
@@ -26,6 +27,7 @@
     "build-webpack": "webpack --config webpack.config.js",
     "build-alternative": "npm run build -- --out-dir ./build-alternative",
     "build-custom": "node ./task/build.js || node ./task/fail.js",
-    "doc:readme": "documentation readme ./src/utilities.js -s 'Documentation'"
+    "doc:readme": "documentation readme ./src/utilities.js -s 'Documentation'",
+    "doc": "jsdoc -c ./jsdoc.config.json"
   }
 }
