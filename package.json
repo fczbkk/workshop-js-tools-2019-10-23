@@ -12,12 +12,17 @@
     "babel-cli": "^6.26.0",
     "lodash": "^4.17.15",
     "rimraf": "^3.0.0",
-    "webpack": "^4.41.2"
+    "webpack": "^4.41.2",
+    "@babel/core": "^7.2.2",
+    "babel-loader": "^8.0.5",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
   },
   "scripts": {
     "cleanup": "rimraf ./build",
     "prebuild": "npm run cleanup",
     "build": "babel ./src --out-dir ./build",
+    "build-webpack": "webpack --config webpack.config.js",
     "build-alternative": "npm run build -- --out-dir ./build-alternative",
     "build-custom": "node ./task/build.js || node ./task/fail.js"
   }
