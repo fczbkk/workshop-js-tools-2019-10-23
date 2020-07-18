@@ -14,7 +14,7 @@
     "babel-loader": "^8.0.5",
     "documentation": "^12.1.2",
     "jsdoc": "^3.6.3",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "rimraf": "^3.0.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.2.1",
