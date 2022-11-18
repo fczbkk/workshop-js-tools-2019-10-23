@@ -17,7 +17,7 @@
     "lodash": "^4.17.19",
     "rimraf": "^3.0.0",
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.2.1",
+    "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.1.14",
     "conventional-changelog-angular": "^5.0.2",
     "conventional-changelog-cli": "^2.0.11"
